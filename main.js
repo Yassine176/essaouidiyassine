@@ -541,7 +541,8 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `🤖 ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ: ${uptime} ┃ 👑 ʙʏ ʙʀᴜɴᴏ sᴏʙʀɪɴᴏ ┃ 🔗 ᴄᴜᴇɴᴛᴀs ᴏғᴄ: https://www.atom.bio/theshadowbrokers-team`;
+  const bio = `🤖 
+ڪــبــيــࢪڪــم و ࢪڪــ؏ امـــامـــي فــمــن انــتــم حــتــۍ تــتـــحــداونــي: ${uptime} ┃ 👑 By Essaouidi Yassine ┃ 🔗 contact officiel: https://atom.bio/essaouidi_yassine`;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
