@@ -10,21 +10,21 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['212678085824', 'Essaouidi', true],
+  ['212648753294', 'Essaouidi', true],
 
-  ['212678085824','Essaouidi', true],
-  ['212678085824'],
-  ['212678085824']
+  ['212648753294','Essaouidi', true],
+  ['212648753294'],
+  ['212648753294']
 ];
 
-global.suittag = ['212678085824'];
-global.prems = ['212678085824'];
+global.suittag = ['212648753294'];
+global.prems = ['212648753294'];
 
-global.packname = 'bobiza bot';
-global.author = 'bobiza';
-global.wm = 'bobiza';
-global.titulowm = 'bobiza';
-global.titulowm2 = `bobiza`
+global.packname = 'essaouidi bot';
+global.author = '➚ ிEssaouidi ⎙ ✓';
+global.wm = '➚ ிEssaouidi ⎙ ✓';
+global.titulowm = '➚ ிEssaouidi ⎙ ✓';
+global.titulowm2 = `➚ ிEssaouidi ⎙ ✓`
 global.igfg = 'bobiza';
 global.wait = '*|🏃| loading...*\n*نحاول تلبية طلبكم لا تستعجلوا* ♥\ninstagram.com/essaouidi_yassine';
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
